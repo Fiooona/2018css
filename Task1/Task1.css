@@ -1,0 +1,29 @@
+body{
+    padding: 10rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.name{
+  padding: 10px;
+}
+.button{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    border: solid 1px #000;
+    text-align: center;
+}
+.line:hover{
+    width: 150px;
+}
+.line{
+    width: 10px;
+    height: 3px;
+    background-color:  #00abff;
+    transition: width 2s;
+    -moz-transition: width 2s;    /* Firefox 4 */
+    -webkit-transition: width 2s;    /* Safari 和 Chrome */
+    -o-transition: width 2s;    /* Opera */
+}
